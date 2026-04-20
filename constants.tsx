@@ -46,20 +46,20 @@ export const SEGMENTS: PresentationSegment[] = [
     imageUrl: "https://picsum.photos/seed/tools/800/800"
   },
   {
-    id: 'microsoft',
-    title: "Microsoft‑Led Session: Getting Value from Copilot",
-    shortName: "Intro to Agents",
-    content: "Microsoft-led session on building agents in the Copilot environment, alongside practical Microsoft 365 Copilot examples for finance.",
-    icon: '💻',
-    imageUrl: microsoftLedSessionImage
-  },
-  {
     id: 'break',
     title: "Break",
     shortName: "Break",
     content: "Time to pause, recharge, and informally discuss ideas from the morning sessions.",
     icon: '☕',
     imageUrl: "https://picsum.photos/seed/coffee/800/800"
+  },
+  {
+    id: 'microsoft',
+    title: "Microsoft‑Led Session: Getting Value from Copilot",
+    shortName: "Intro to Agents",
+    content: "Microsoft-led session on building agents in the Copilot environment, alongside practical Microsoft 365 Copilot examples for finance.",
+    icon: '💻',
+    imageUrl: microsoftLedSessionImage
   },
   {
     id: 'workshop',
