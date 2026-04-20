@@ -32,8 +32,8 @@ export const SEGMENTS: PresentationSegment[] = [
   {
     id: 'challenge',
     title: "Copilot in Excel Challenge",
-    shortName: "Challenge",
-    content: "Requirements\n\n1. Three new columns from Group: Inc/Ex Outlets, Price Type and Channel.\n\n2. Dept column as a combination of Dept Code and Dept Name.\n\n3. Sales Inc VAT summary table for Womenswear and Online only:\n\n\n4. Narrative giving top 3 and bottom 3 BUs (vs LY) for Sales Inc VAT, suggesting drivers for\nover/underperformance.",
+    shortName: "Excel",
+    content: "Copilot integrations in Excel (Microsoft) - How Copilot can assist in reconciliation work.\n\nBalance Sheet Rec File\nUse Excel for assistance in matching",
     icon: '📊',
     imageUrl: "https://picsum.photos/seed/excel/800/800"
   },
@@ -48,8 +48,8 @@ export const SEGMENTS: PresentationSegment[] = [
   {
     id: 'microsoft',
     title: "Microsoft‑Led Session: Getting Value from Copilot",
-    shortName: "Microsoft",
-    content: "Deep dive into Microsoft 365 Copilot, focusing on real finance use cases, Excel, Copilot Chat, and an introduction to agents and copilots.",
+    shortName: "Intro to Agents",
+    content: "Microsoft-led session on building agents in the Copilot environment, alongside practical Microsoft 365 Copilot examples for finance.",
     icon: '💻',
     imageUrl: microsoftLedSessionImage
   },
