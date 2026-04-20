@@ -8,15 +8,6 @@ export interface PresentationSegment {
   imageUrl?: string;
 }
 
-export interface QuizAnswer {
-  text: string;
-  points: number;
-}
-
-export interface QuizQuestion {
-  question: string;
-  answers: QuizAnswer[];
-}
 
 export interface Player {
   x: number;
