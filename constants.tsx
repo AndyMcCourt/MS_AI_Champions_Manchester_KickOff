@@ -30,20 +30,20 @@ export const SEGMENTS: PresentationSegment[] = [
     imageUrl: "https://picsum.photos/seed/energizer/800/800"
   },
   {
-    id: 'tools',
-    title: "M&S Perspective: AI Tools Available to Finance",
-    shortName: "Tools",
-    content: "AI Use Cases:\n- Tier 0 – Personal Copilot Agents\n- Tier 1 – Retrofitting AI into Existing Automation\n- Tier 2 – Advanced/Chained Agents & ML Integration\n- Tier 3 – Enterprise‑Level AI Solutions\n\nExperimentation Deep Dive:\n- Microsoft 365 Copilot\n- Copilot for Power BI\n- Copilot Studio",
-    icon: '🛠️',
-    imageUrl: "https://picsum.photos/seed/tools/800/800"
-  },
-  {
     id: 'challenge',
     title: "Copilot in Excel Challenge",
     shortName: "Challenge",
     content: "Requirements\n\n1. Three new columns from Group: Inc/Ex Outlets, Price Type and Channel.\n\n2. Dept column as a combination of Dept Code and Dept Name.\n\n3. Sales Inc VAT summary table for Womenswear and Online only:\n\n\n4. Narrative giving top 3 and bottom 3 BUs (vs LY) for Sales Inc VAT, suggesting drivers for\nover/underperformance.",
     icon: '📊',
     imageUrl: "https://picsum.photos/seed/excel/800/800"
+  },
+  {
+    id: 'tools',
+    title: "M&S Perspective: AI Tools Available to Finance",
+    shortName: "Tools",
+    content: "AI Use Cases:\n- Tier 0 – Personal Copilot Agents\n- Tier 1 – Retrofitting AI into Existing Automation\n- Tier 2 – Advanced/Chained Agents & ML Integration\n- Tier 3 – Enterprise‑Level AI Solutions\n\nExperimentation Deep Dive:\n- Microsoft 365 Copilot\n- Copilot for Power BI\n- Copilot Studio",
+    icon: '🛠️',
+    imageUrl: "https://picsum.photos/seed/tools/800/800"
   },
   {
     id: 'microsoft',
@@ -81,7 +81,7 @@ export const SEGMENTS: PresentationSegment[] = [
     id: 'thanks',
     title: "Close & Next Steps",
     shortName: "Close",
-    content: "THANK YOU!\n\nWhat’s next:\n1) Regular updates in the Team Space — everyone is expected to contribute.\n2) Monthly “AI Unite” sessions — run on a champion tag-team rota.\n3) Manchester and London “AI drop-in sessions” — initially led by Andy and Alex, with champions increasingly attending and hosting as confidence and maturity grow.",
+    content: "THANK YOU!\n\nWhat’s next:\n1) Regular updates in the Team Space — everyone is expected to contribute.\n2) Monthly “AI Unite” sessions — run on a champion tag-team rota.\n3) Manchester “AI drop-in sessions” — initially led by Andy and Alex, with champions increasingly attending and hosting as confidence and maturity grow.",
     icon: '🏁',
     imageUrl: aiChampionsLogo
   }
@@ -145,7 +145,7 @@ export const QUIZ_DATA: QuizQuestion[] = [
   { 
     question: "Largest UK cities by population", 
     answers: [
-      { text: "London", points: 1 },
+      { text: "Manchester", points: 1 },
       { text: "Birmingham", points: 2 },
       { text: "Glasgow", points: 3 },
       { text: "Leeds", points: 4 },
@@ -166,14 +166,14 @@ export const QUIZ_DATA: QuizQuestion[] = [
       { text: "Buckingham Palace", points: 1 },
       { text: "Stonehenge", points: 2 },
       { text: "Houses of Parliament", points: 3 },
-      { text: "Tower of London", points: 4 },
+      { text: "Tower of Manchester", points: 4 },
       { text: "St Paul’s Cathedral", points: 5 },
       { text: "White Cliffs of Dover", points: 6 },
       { text: "Tower Bridge", points: 7 },
       { text: "Edinburgh Castle", points: 8 },
       { text: "Lake District", points: 9 },
       { text: "Westminster Abbey", points: 10 },
-      { text: "London Eye", points: -5 },
+      { text: "Manchester Eye", points: -5 },
       { text: "York Minster", points: -3 },
       { text: "Hadrian’s Wall", points: -3 }
     ] 
