@@ -388,7 +388,7 @@ const GameView: React.FC = () => {
         const infoPanelStartY = Math.max(120, centeredStackTop);
 
         drawTextPanel(
-          "AI CHAMPIONS: LONDON KICK OFF",
+          "AI CHAMPIONS: MANCHESTER KICK OFF",
           infoPanelStartY,
           'bold 54px sans-serif',
           '#22d3ee',
@@ -482,8 +482,8 @@ const GameView: React.FC = () => {
       
       <div className="absolute top-4 left-4 z-20 pointer-events-none">
          <div className="bg-slate-900/90 border-l-4 border-cyan-500 px-6 py-3 rounded-r-xl backdrop-blur-xl shadow-2xl">
-            <h1 className="text-cyan-400 font-black tracking-[0.1em] text-xl uppercase">AI Champions - London Kick Off</h1>
-            <p className="text-slate-400 text-xs font-bold">MARCH 2026 // KICK OFF SESSION</p>
+            <h1 className="text-cyan-400 font-black tracking-[0.1em] text-xl uppercase">AI Champions - Manchester Kick Off</h1>
+            <p className="text-slate-400 text-xs font-bold">APRIL 2026 // KICK OFF SESSION</p>
          </div>
       </div>
 
