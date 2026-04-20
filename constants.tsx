@@ -49,7 +49,7 @@ export const SEGMENTS: PresentationSegment[] = [
     id: 'microsoft',
     title: "Microsoft‑Led Session: Getting Value from Copilot",
     shortName: "Intro to Agents",
-    content: "Deep dive into Microsoft 365 Copilot, focusing on real finance use cases, Excel, Copilot Chat, and an introduction to agents and copilots.",
+    content: "Microsoft-led session on building agents in the Copilot environment, alongside practical Microsoft 365 Copilot examples for finance.",
     icon: '💻',
     imageUrl: microsoftLedSessionImage
   },
