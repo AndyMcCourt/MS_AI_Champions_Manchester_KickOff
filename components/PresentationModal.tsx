@@ -11,12 +11,10 @@ const PresentationModal: React.FC<PresentationModalProps> = ({ segment, onClose 
   const isEnergizer = segment.id === 'energizer';
   const isKnowledge = segment.id === 'knowledge';
   const isTools = segment.id === 'tools';
-  const isChallenge = segment.id === 'challenge';
   const isWorkshop = segment.id === 'workshop';
   const purposeVideoUrl = 'https://mnscorp-my.sharepoint.com/:v:/r/personal/andrew_mccourt_mnscorp_net/Documents/AI%20Champions%20Kick%20Off%20-%20Avatar%20Video.mp4?csf=1&web=1&e=FMGbDj';
   const knowledgeBaseUrl = 'https://mnscorp-my.sharepoint.com/:p:/r/personal/andrew_mccourt_mnscorp_net/Documents/AI%20Champions%20Kick%20Off%20-%20Knowledge%20Base.pptx?d=w67c7e160235843a7abb8f43b5fab2b07&csf=1&web=1&e=FUEOCJ';
   const toolsDeckUrl = 'https://mnscorp-my.sharepoint.com/:p:/g/personal/andrew_mccourt_mnscorp_net/IQAYDMnQtc06SIUNSRJGbEDfAUdpyOkPIyzrHobcVKpKZQo?e=vDKKbV';
-  const excelChallengeUrl = 'https://mnscorp.sharepoint.com/:x:/r/sites/FinanceAnalyticsCentreofExcellence/_layouts/15/Doc.aspx?sourcedoc=%7BC7A06B26-876E-4911-A3CB-2F1A5B7D05C9%7D&file=FHB_after.xlsx&action=default&mobileredirect=true';
   const workshopDeckUrl = 'https://mnscorp.sharepoint.com/:p:/r/sites/FinanceAnalyticsCentreofExcellence/_layouts/15/Doc.aspx?sourcedoc=%7B82ECD0D2-CFE0-46CE-97C8-17603AA399DD%7D&file=Use%20Case%20Discovery.pptx&action=view&mobileredirect=true';
 
   useEffect(() => {
@@ -124,7 +122,7 @@ const PresentationModal: React.FC<PresentationModalProps> = ({ segment, onClose 
                               {segment.content || "Standby for incoming transmission..."}
                           </div>
                         )}
-                        {(isPurpose || isKnowledge || isTools || isChallenge || isWorkshop) && (
+                        {(isPurpose || isKnowledge || isTools || isWorkshop) && (
                           <div className="mt-8">
                             <button
                               onClick={() =>
@@ -135,8 +133,6 @@ const PresentationModal: React.FC<PresentationModalProps> = ({ segment, onClose 
                                     ? knowledgeBaseUrl
                                     : isTools
                                     ? toolsDeckUrl
-                                    : isChallenge
-                                    ? excelChallengeUrl
                                     : workshopDeckUrl,
                                   '_blank',
                                   'noopener,noreferrer'
@@ -150,8 +146,6 @@ const PresentationModal: React.FC<PresentationModalProps> = ({ segment, onClose 
                                 ? '↗ Open Knowledge Base'
                                 : isTools
                                 ? '↗ Open Tools Deck'
-                                : isChallenge
-                                ? '↗ Launch Excel Challenge'
                                 : '↗ Launch Workshop Deck'}
                             </button>
                           </div>
